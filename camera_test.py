@@ -7,7 +7,7 @@ if not camera.isOpened():
     exit()
 
 print("Webcam started!")
-print("Press Q inside the webcam window to quit.")
+print("Press x inside the webcam window to quit.")
 
 while True:
     success, frame = camera.read()
@@ -18,7 +18,7 @@ while True:
 
     cv2.imshow("My Webcam - OpenCV", frame)
 
-    if cv2.waitKey(1) & 0xFF == ord("q"):
+    if cv2.waitKey(1) & 0xFF == ord("x"):
         break
 
 camera.release()
