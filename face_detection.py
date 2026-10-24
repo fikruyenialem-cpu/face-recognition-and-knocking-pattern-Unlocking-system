@@ -1,7 +1,7 @@
 import cv2
 
-# -----------------------------
-# Load YuNet face detector
+
+# Load YuNet face detector, cv is computer vision
 # -----------------------------
 model = "face_detection_yunet_2023mar.onnx"
 
