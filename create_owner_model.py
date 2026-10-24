@@ -4,7 +4,7 @@ import numpy as np
 import os
 import pickle
 
-# --------------------------------
+# all the above things are libraries of python
 # Load InsightFace model
 # --------------------------------
 print("Loading face recognition model...")
