@@ -76,9 +76,7 @@ owner_embedding = np.mean(embeddings, axis=0)
 # Normalize the final embedding
 owner_embedding = owner_embedding / np.linalg.norm(owner_embedding)
 
-# --------------------------------
 # Save owner model
-# --------------------------------
 with open("owner_embedding.pkl", "wb") as file:
     pickle.dump(owner_embedding, file)
 
