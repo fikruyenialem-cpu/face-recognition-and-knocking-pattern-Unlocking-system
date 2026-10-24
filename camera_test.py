@@ -1,9 +1,9 @@
-import cv2
+import cv2 #compuiter vision
 
 camera = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 if not camera.isOpened():
-    print("ERROR: Could not open the webcam.")
+    print("fault, Could not open the webcam.")
     exit()
 
 print("Webcam started!")
