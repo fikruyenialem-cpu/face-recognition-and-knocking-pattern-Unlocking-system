@@ -3,7 +3,7 @@ import cv2
 
 # Load YuNet face detector, cv is computer vision
 # -----------------------------
-model = "face_detection_yunet_2023mar.onnx"
+model = "face_detection_yunet_2023mar.onnx" # i DAWNLOded the model .onnx from others git hub account
 
 detector = cv2.FaceDetectorYN.create(
     model,
